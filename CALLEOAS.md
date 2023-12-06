@@ -13,7 +13,7 @@
 
 ```
 
-**Response:**
+**Sample Response:**
 ``` json
    [
     {         
@@ -28,11 +28,11 @@
 
 ```
 
-### 2. DataSetByCategory
+### 2. Data Set By Category
 **End Point** : api/datasetdetails/datasetbycategory
 
 **Sample Request**
-``` json
+``` js
 {
     "code" : 101,
     "patientId" : 1001,
@@ -40,4 +40,22 @@
     "workEntity" : 320
 }
 
+```
+
+**Sample Response**
+``` js
+[
+   {
+          Dataset: "Asthama",
+          CheckListType: "LSPSET25",
+          KeyType : “E”,
+          Active: "Y"
+    },
+   {                   
+          Dataset: "Falls",
+          CheckListType: "LSPSET26",
+          KeyType : “E”,
+          Active: "Y"
+    }
+]
 ```
